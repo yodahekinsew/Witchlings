@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/fgq5ggz.css" />
+    <link rel="stylesheet" href="main.min.css" />
+    <title>Witchlings</title>
+  </head>
+  <body>
+    <div id="loading-cover">
+      <div id="lottie"></div>
+    </div>
+    <div id="results-page">
+      <div id="your-coven">
+        <p>
+          <span class="fade-reveal">Young witch</span
+          ><span class="fade-reveal">, your</span>
+          <span class="fade-reveal"> new</span>
+          <span class="fade-reveal"> coven</span>
+          <span class="fade-reveal"> shall</span>
+          <span class="fade-reveal"> henceforth</span>
+          <span class="fade-reveal"> be</span>
+        </p>
+        <h1 id="coven-choice">Goose House</h1>
+        <div id="house-description">
+          <p>
+            Brave and clever, House Hyacinth members are perhaps the most
+            powerful of all the Twelve Town’s Covens.
+          </p>
+          <p>
+            With a strong mastery in every aspect of magic, House Hyacinth are
+            formidable in battle but while they often compete with Frog House
+            for the top grades in their class, they never come anywhere near
+            their froggy peers.
+          </p>
+          <p>
+            The highest number of famous witches come from House Hyacinth.
+            Perfectionists at heart, House Hyacinth members aim for excellence
+            whether they’re cleaning their rooms or competing in a Toad Race
+            (for which they hold the most trophies) but deep down, they just
+            want to be well liked and use any means necessary to cover up their
+            very normal insecurities and please those around them.
+          </p>
+          <p id="learn-more">Learn more about your coven!</p>
+        </div>
+      </div>
+      <div id="cards-page">
+        <div id="cards-holder">
+          <div class="card hide-card">
+            <img class="card-image" alt="house fun fact" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house profession" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house weakness" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house strength" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house details" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house motto" />
+            <div class="card-cover"></div>
+          </div>
+          <div class="card hide-card">
+            <img class="card-image" alt="house crest" />
+            <div class="card-cover"></div>
+          </div>
+        </div>
+        <div id="post-quiz-buttons">
+          <div id="retake-quiz-button" class="button-holder">
+            <div class="button">
+              <p>Retake the quiz!</p>
+            </div>
+          </div>
+          <div id="preorder-book-button" class="button-holder">
+            <div class="button">
+              <p>Preorder the book!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="quiz-page">
+      <div id="quiz">
+        <div id="get-results">
+          <div class="button-holder">
+            <div id="results-button" class="button">
+              <p>Find Your Coven</p>
+            </div>
+          </div>
+        </div>
+        <div id="background"></div>
+        <div id="welcome">
+          <div>
+            <h1>Witchlings</h1>
+            <h2>Witch coven are <span class="gold-text">you</span> in?</h2>
+          </div>
+          <div id="take-quiz-button" class="button-holder">
+            <div class="button">
+              <p>Take the quiz!</p>
+            </div>
+          </div>
+        </div>
+        <div id="previous-question">
+          <div class="button-holder">
+            <div id="previous-button" class="button">
+              <p>Previous Question</p>
+            </div>
+          </div>
+        </div>
+        <div class="question image-question" id="question-0">
+          <p>What does your aura look like?</p>
+          <div class="answers">
+            <div class="answer-row" style="justify-content: space-between">
+              <div class="answer">
+                <div class="button-holder">
+                  <div class="button">
+                    <img
+                      src="/static/goose/goose-house-aura.svg"
+                      alt="aura made of white and blood orange colors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="answer">
+                <div class="button-holder">
+                  <div class="button">
+                    <img
+                      src="/static/frog/frog-house-aura.svg"
+                      alt="aura made of green and pink orange colors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="answer">
+                <div class="button-holder">
+                  <div class="button">
+                    <img
+                      src="/static/stars/stars-house-aura.svg"
+                      alt="aura made of aquamarine and silver colors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="answer-row" style="justify-content: space-evenly">
+              <div class="answer">
+                <div class="button-holder">
+                  <div class="button">
+                    <img
+                      src="/static/moth/moth-house-aura.svg"
+                      alt="aura made of black and grey colors"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="answer">
+                <div class="button-holder">
+                  <div class="button">
+                    <img
+                      src="/static/hyacinth/hyacinth-house-aura.svg"
+                      alt="aura made of purple and black colors"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <template id="question-template">
+      <div class="question">
+        <p>How would you prepare your toad to compete Toad Race?</p>
+        <div class="answers">
+          <div class="answer">
+            <div class="button-holder">
+              <div class="button">
+                <p>Throw their toad a party to get them excited for the race</p>
+              </div>
+            </div>
+          </div>
+          <div class="answer">
+            <div class="button-holder">
+              <div class="button">
+                <p>With a vigorous training program</p>
+              </div>
+            </div>
+          </div>
+          <div class="answer">
+            <div class="button-holder">
+              <div class="button">
+                <p>Give their toad a nice spa day to relax before the race</p>
+              </div>
+            </div>
+          </div>
+          <div class="answer">
+            <div class="button-holder">
+              <div class="button">
+                <p>
+                  Not super interested in the whole Toad Race thing and would
+                  rather write a poem about their toad
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="answer">
+            <div class="button-holder">
+              <div class="button">
+                <p>
+                  Doesn’t need to prepare at all, their toad is a natural born
+                  winner!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      var animation = bodymovin.loadAnimation({
+        container: document.getElementById("lottie"), // Required
+        path: "static/cauldron_loading.json", // Required
+        renderer: "svg", // Required
+        loop: true, // Optional
+        autoplay: true, // Optional
+        name: "Hello World", // Name for future reference. Optional.
+      });
+    </script>
+    <!-- <script src="./js/cards.js"></script>
+    <script src="./js/results.js"></script>
+    <script src="./js/quiz.js"></script>
+    <script src="./main.js"></script> -->
+    <script src="./bundle.min.js"></script>
+  </body>
+</html>

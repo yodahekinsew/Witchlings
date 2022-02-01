@@ -1,0 +1,198 @@
+{
+  "houses": [
+    "Goose House",
+    "Frog House",
+    "House of Stars",
+    "Moth House",
+    "House Hyacinth"
+  ],
+  "questions": [
+    {
+      "type": "image",
+      "question": "What does your aura look like?",
+      "answers": [
+        {
+          "answer": "/static/goose/goose-house-aura.svg",
+          "alt": "aura made of white and blood orange colors",
+          "house": "Goose House"
+        },
+        {
+          "answer": "/static/frog/frog-house-aura.svg",
+          "alt": "aura made of green and pink orange colors",
+          "house": "Frog House"
+        },
+        {
+          "answer": "/static/stars/stars-house-aura.svg",
+          "alt": "aura made of aquamarine and silver colors",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "/static/moth/moth-house-aura.svg",
+          "alt": "aura made of black and grey colors",
+          "house": "Moth House"
+        },
+        {
+          "answer": "/static/hyacinth/hyacinth-house-aura.svg",
+          "alt": "aura made of purple and black colors",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "How would you prepare your toad to compete in the Toad Race?",
+      "answers": [
+        {
+          "answer": "Throw my toad a party to get them excited for the race",
+          "house": "Goose House"
+        },
+        {
+          "answer": "Run my toad through a vigorous training program",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Give my toad a nice spa day to relax before the race",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "Not super interested in the whole Toad Race thing, I'd rather just write a poem about my toad",
+          "house": "Moth House"
+        },
+        {
+          "answer": "No preparation needed, my toad is a natural born winner!",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "How would your friends describe you?",
+      "answers": [
+        {
+          "answer": "Super confident, a great strategist, and very spontaneous",
+          "house": "Goose House"
+        },
+        {
+          "answer": "A reliable friend, always there, but is very strongly willed",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Very charming, giving, and always cracking some jokes",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "Patient, sensitive, and someone you can trust with anything",
+          "house": "Moth House"
+        },
+        {
+          "answer": "Someone who nevers give up, works really hard at everything they set their mind to, and a forgiving friend",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "If you could take 3 things to a desert island what would they be?",
+      "answers": [
+        {
+          "answer": "Flippers, painting supplies, my best friend",
+          "house": "Goose House"
+        },
+        {
+          "answer": "First aid kit, my favorite book, self-purifying water bottle",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Sleep mask, my cell phone, a bag full of all my makeup and beauty supplies",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "My favorite playlist, a journal, tarot deck",
+          "house": "Moth House"
+        },
+        {
+          "answer": "My award winning toad, hand sanitizer, the perfect spell book",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "What do you want to be when you grow up?",
+      "answers": [
+        {
+          "answer": "Surfer",
+          "house": "Goose House"
+        },
+        {
+          "answer": "President",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Actor/Actress",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "Author",
+          "house": "Moth House"
+        },
+        {
+          "answer": "Police Officer",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "What would you do if you had to catch a bad guy?",
+      "answers": [
+        {
+          "answer": "Strategically plan to catch the evil doer",
+          "house": "Goose House"
+        },
+        {
+          "answer": "Study hard to learn everything I can about the treacherous villain",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Charm my way into being friends with this terribly misunderstood being",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "Win the fiend over by baking them a delicious cake. If they don’t like it, hex them with a spell.",
+          "house": "Moth House"
+        },
+        {
+          "answer": "Bravely confront them about their evil deeds and hope they change for the better",
+          "house": "House Hyacinth"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "question": "It’s the weekend. How are you recharging?",
+      "answers": [
+        {
+          "answer": "By throwing the absolute BEST party in town",
+          "house": "Goose House"
+        },
+        {
+          "answer": "Easy. I’m knitting a cuddly new scarf for my Toad",
+          "house": "Frog House"
+        },
+        {
+          "answer": "Darling, I’m putting on my most fancy outfit and going to the opera of course",
+          "house": "House of Stars"
+        },
+        {
+          "answer": "I’m staying put at home and will spend the whole weekend daydreaming",
+          "house": "Moth House"
+        },
+        {
+          "answer": "Gotta train my toad for the big Toad Race and practice a few hexes. No rest for us!",
+          "house": "House Hyacinth"
+        }
+      ]
+    }
+  ]
+}

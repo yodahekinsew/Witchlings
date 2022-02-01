@@ -1,0 +1,164 @@
+@use "cards";
+@use "responsive";
+
+#your-coven {
+  transition: top 1s ease, transform 1s ease;
+  will-change: top, transform;
+  // height: 10vh;
+  text-align: center;
+  // Change to 'top: 0%' to move to top of page
+  width: 75%;
+  margin-top: 15%;
+  margin-left: 12.5%;
+
+  > p {
+    margin: 0px;
+    // font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  @include responsive.lg {
+    transform: translate(-50%, 0%);
+    margin-left: unset;
+    margin-top: unset;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+.fade-reveal {
+  will-change: opacity;
+  transition: opacity 0.5s ease-in;
+  opacity: 0;
+  color: white;
+}
+
+#coven-choice {
+  transition: opacity 1s ease;
+  will-change: opacity;
+  opacity: 0;
+
+  margin: 0px;
+  font-variant: small-caps;
+  font-family: "Satisfy", cursive;
+  //   line-height: 100%;
+
+  font-size: 20vw;
+  overflow: visible;
+  background: -webkit-linear-gradient(rgb(244, 235, 223), var(--gold));
+  // background: -webkit-linear-gradient(rgb(244, 235, 223), rgb(236, 197, 129));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  @include responsive.lg {
+    font-size: 128px;
+  }
+}
+
+#results-page {
+  will-change: background-color;
+  transition: opacity 0.5s ease;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  // background-color: rgb(8, 27, 50);
+  background: linear-gradient(#081b32 25%, rgb(31, 104, 153) 100%);
+  z-index: 1;
+  opacity: 0;
+  overflow-y: auto;
+}
+
+#house-description {
+  transition: opacity 1s ease;
+  will-change: opacity;
+  //   position: absolute;
+  //   top: 20%;
+  //   left: 20%;
+  color: white;
+  // font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-size: 24px;
+  //   max-width: 60%;
+  text-align: center;
+  opacity: 0;
+
+  @include responsive.lg {
+    transition-delay: 1s;
+  }
+}
+
+#house-description p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  line-height: 150%;
+}
+
+#learn-more {
+  font-size: 36px;
+  font-variant: small-caps;
+  font-family: "Satisfy", cursive;
+  line-height: 100%;
+
+  overflow: visible;
+  background: -webkit-linear-gradient(rgb(244, 235, 223), var(--gold));
+  // background: -webkit-linear-gradient(rgb(244, 235, 223), rgb(236, 197, 129));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+#post-quiz-buttons {
+  transition: opacity 0.5s ease;
+  will-change: opacity;
+  opacity: 0;
+
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  pointer-events: none;
+  .button {
+    pointer-events: none;
+  }
+
+  .button-holder {
+    margin: 10% 0 10% 0;
+    @include responsive.lg {
+      margin: unset;
+    }
+  }
+
+  @include responsive.lg {
+    height: unset;
+    width: 95%;
+    margin-left: unset;
+    position: fixed;
+    flex-direction: row;
+    transform: translate(-50%, -50%);
+    bottom: 2.5%;
+    left: 50%;
+  }
+}
+
+#retake-quiz-button {
+  margin-top: 25% !important;
+  @include responsive.lg {
+    margin-top: unset !important;
+  }
+}
+#preorder-book-button {
+  margin-bottom: 50% !important;
+  @include responsive.lg {
+    margin-bottom: unset !important;
+  }
+}
