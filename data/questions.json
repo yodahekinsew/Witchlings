@@ -12,27 +12,27 @@
       "question": "What does your aura look like?",
       "answers": [
         {
-          "answer": "/static/goose/goose-house-aura.svg",
+          "answer": "./static/goose/goose-house-aura.svg",
           "alt": "aura made of white and blood orange colors",
           "house": "Goose House"
         },
         {
-          "answer": "/static/frog/frog-house-aura.svg",
+          "answer": "./static/frog/frog-house-aura.svg",
           "alt": "aura made of green and pink orange colors",
           "house": "Frog House"
         },
         {
-          "answer": "/static/stars/stars-house-aura.svg",
+          "answer": "./static/stars/stars-house-aura.svg",
           "alt": "aura made of aquamarine and silver colors",
           "house": "House of Stars"
         },
         {
-          "answer": "/static/moth/moth-house-aura.svg",
+          "answer": "./static/moth/moth-house-aura.svg",
           "alt": "aura made of black and grey colors",
           "house": "Moth House"
         },
         {
-          "answer": "/static/hyacinth/hyacinth-house-aura.svg",
+          "answer": "./static/hyacinth/hyacinth-house-aura.svg",
           "alt": "aura made of purple and black colors",
           "house": "House Hyacinth"
         }

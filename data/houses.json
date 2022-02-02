@@ -1,12 +1,12 @@
 {
   "Goose House": {
-    "crest": "/static/goose/goose-house-crest.png",
-    "details": "/static/goose/goose-house-details.png",
-    "fun": "/static/goose/goose-house-fun.png",
-    "motto": "/static/goose/goose-house-motto.png",
-    "profession": "/static/goose/goose-house-profession.png",
-    "strength": "/static/goose/goose-house-strength.png",
-    "weakness": "/static/goose/goose-house-weakness.png",
+    "crest": "./static/goose/goose-house-crest.png",
+    "details": "./static/goose/goose-house-details.png",
+    "fun": "./static/goose/goose-house-fun.png",
+    "motto": "./static/goose/goose-house-motto.png",
+    "profession": "./static/goose/goose-house-profession.png",
+    "strength": "./static/goose/goose-house-strength.png",
+    "weakness": "./static/goose/goose-house-weakness.png",
     "description": [
       "The most chaotic (and arguably fun) of the coven houses, Goose House is filled with street smart, scrappy witches.",
       "They have their own moral compasses and aren’t afraid to cause trouble or go against the norm in the name of justice.",
@@ -14,26 +14,26 @@
     ]
   },
   "Frog House": {
-    "crest": "/static/frog/frog-house-crest.webp",
-    "details": "/static/frog/frog-house-details.webp",
-    "fun": "/static/frog/frog-house-fun.webp",
-    "motto": "/static/frog/frog-house-motto.webp",
-    "profession": "/static/frog/frog-house-profession.webp",
-    "strength": "/static/frog/frog-house-strength.webp",
-    "weakness": "/static/frog/frog-house-weakness.webp",
+    "crest": "./static/frog/frog-house-crest.webp",
+    "details": "./static/frog/frog-house-details.webp",
+    "fun": "./static/frog/frog-house-fun.webp",
+    "motto": "./static/frog/frog-house-motto.webp",
+    "profession": "./static/frog/frog-house-profession.webp",
+    "strength": "./static/frog/frog-house-strength.webp",
+    "weakness": "./static/frog/frog-house-weakness.webp",
     "description": [
       "Routinely at the top of their classes, Frog House members have a strong sense of personal responsibility and duty and are generally considered the most book smart of all the covens.",
       "Making friends isn’t always easy for these sometimes shy witches, but when they do make a friend, they will have their back for life."
     ]
   },
   "House of Stars": {
-    "crest": "/static/stars/stars-house-crest.webp",
-    "details": "/static/stars/stars-house-details.webp",
-    "fun": "/static/stars/stars-house-fun.webp",
-    "motto": "/static/stars/stars-house-motto.webp",
-    "profession": "/static/stars/stars-house-profession.webp",
-    "strength": "/static/stars/stars-house-strength.webp",
-    "weakness": "/static/stars/stars-house-weakness.webp",
+    "crest": "./static/stars/stars-house-crest.webp",
+    "details": "./static/stars/stars-house-details.webp",
+    "fun": "./static/stars/stars-house-fun.webp",
+    "motto": "./static/stars/stars-house-motto.webp",
+    "profession": "./static/stars/stars-house-profession.webp",
+    "strength": "./static/stars/stars-house-strength.webp",
+    "weakness": "./static/stars/stars-house-weakness.webp",
     "description": [
       "House of Stars witches are the center of attention wherever they go, and they wouldn’t have it any other way.",
       "Easy with their smiles and with a penchant for aesthetics, this house is welcoming and friendly, though their focus on all things beautiful can sometimes leave little room for studying. Whoops.",
@@ -41,13 +41,13 @@
     ]
   },
   "Moth House": {
-    "crest": "/static/moth/moth-house-crest.webp",
-    "details": "/static/moth/moth-house-details.webp",
-    "fun": "/static/moth/moth-house-fun.webp",
-    "motto": "/static/moth/moth-house-motto.webp",
-    "profession": "/static/moth/moth-house-profession.webp",
-    "strength": "/static/moth/moth-house-strength.webp",
-    "weakness": "/static/moth/moth-house-weakness.webp",
+    "crest": "./static/moth/moth-house-crest.webp",
+    "details": "./static/moth/moth-house-details.webp",
+    "fun": "./static/moth/moth-house-fun.webp",
+    "motto": "./static/moth/moth-house-motto.webp",
+    "profession": "./static/moth/moth-house-profession.webp",
+    "strength": "./static/moth/moth-house-strength.webp",
+    "weakness": "./static/moth/moth-house-weakness.webp",
     "description": [
       "In touch with their emotions and with special insight into the other side, Moth House members are sensitive and obsessed with all things ghostly.",
       "These chaotic good witches will bake you a delicious cake in the shape of a casket to celebrate a special occasion, hold your hand and cry with you in a cemetery with you if you’re feeling sad, or help you hex your bully.",
@@ -55,13 +55,13 @@
     ]
   },
   "House Hyacinth": {
-    "crest": "/static/hyacinth/hyacinth-house-crest.webp",
-    "details": "/static/hyacinth/hyacinth-house-details.webp",
-    "fun": "/static/hyacinth/hyacinth-house-fun.webp",
-    "motto": "/static/hyacinth/hyacinth-house-motto.webp",
-    "profession": "/static/hyacinth/hyacinth-house-profession.webp",
-    "strength": "/static/hyacinth/hyacinth-house-strength.webp",
-    "weakness": "/static/hyacinth/hyacinth-house-weakness.webp",
+    "crest": "./static/hyacinth/hyacinth-house-crest.webp",
+    "details": "./static/hyacinth/hyacinth-house-details.webp",
+    "fun": "./static/hyacinth/hyacinth-house-fun.webp",
+    "motto": "./static/hyacinth/hyacinth-house-motto.webp",
+    "profession": "./static/hyacinth/hyacinth-house-profession.webp",
+    "strength": "./static/hyacinth/hyacinth-house-strength.webp",
+    "weakness": "./static/hyacinth/hyacinth-house-weakness.webp",
     "description": [
       "Brave and clever, House Hyacinth members are perhaps the most powerful of all the Twelve Town’s Covens.",
       "With a strong mastery in every aspect of magic, House Hyacinth are formidable in battle but while they often compete with Frog House for the top grades in their class, they never come anywhere near their froggy peers.",

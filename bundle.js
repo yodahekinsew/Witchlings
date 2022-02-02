@@ -58,7 +58,9 @@ const addExtraCSS = () => {
       inverseInterpolant
     );
     addCSS(
-      `.card:nth-child(${childIndex}) { transition-delay: ${0.125 * i}s; transform: rotateZ(${5 * Math.random()}deg);}`
+      `.card:nth-child(${childIndex}) { transition-delay: ${
+        0.125 * i
+      }s; transform: rotateZ(${5 * Math.random()}deg);}`
     );
     addCSS(
       `.show-card.card:nth-child(${childIndex}) {transition-delay: 0s; transform: translate(${idleTranslateX}vw, ${idleTranslateY}vw) rotateZ(${idleAngle}deg) ;}`
@@ -232,13 +234,23 @@ window.onmousemove = (e) => {
   const intensity = Math.sqrt(Math.pow(mouseX, 2) + Math.pow(mouseY, 2)) / 1.5;
   document.documentElement.style.setProperty(
     "--card-lighting",
-    `radial-gradient(farthest-corner at ${(e.clientX / window.innerWidth) * 150}px ${(e.clientY / window.innerHeight) * 250}px, rgba(255, 255, 255, ${0.4 - intensity * 0.4}) 0%,  rgba(255, 255, 255, ${0.4 - intensity * 0.4}) 2.5%, rgba(255, 255, 255, ${0.3 - intensity * 0.3}) 7.5%, rgba(255, 255, 255, 0) ${65 - intensity * 65}%)`
+    `radial-gradient(farthest-corner at ${
+      (e.clientX / window.innerWidth) * 150
+    }px ${(e.clientY / window.innerHeight) * 250}px, rgba(255, 255, 255, ${
+      0.4 - intensity * 0.4
+    }) 0%,  rgba(255, 255, 255, ${
+      0.4 - intensity * 0.4
+    }) 2.5%, rgba(255, 255, 255, ${
+      0.3 - intensity * 0.3
+    }) 7.5%, rgba(255, 255, 255, 0) ${65 - intensity * 65}%)`
   );
 
   // Animate the rotation on the card
   document.documentElement.style.setProperty(
     "--card-rotation",
-    `rotateX(${(e.clientY / window.innerHeight) * 15}deg) rotateY(${-mouseX * 10}deg)`
+    `rotateX(${(e.clientY / window.innerHeight) * 15}deg) rotateY(${
+      -mouseX * 10
+    }deg)`
   );
 };
 
@@ -272,7 +284,7 @@ const disableCards = () => {
   for (let card of cards) card.style.pointerEvents = "none";
 };
 
-const PATH_TO_HOUSES = "/data/houses.json";
+const PATH_TO_HOUSES = "./data/houses.json";
 const resultsPage = document.getElementById("results-page");
 const yourCovenField = document.getElementById("your-coven");
 const covenChoiceField = document.getElementById("coven-choice");
@@ -476,7 +488,7 @@ preorderBookButton.onclick = (event) => {
   window.open("https://www.claribelortega.com/witchlings", "_blank");
 };
 
-const PATH_TO_QUESTIONS = "/data/questions.json";
+const PATH_TO_QUESTIONS = "./data/questions.json";
 const quiz = document.getElementById("quiz");
 const takeQuizButton = document.getElementById("take-quiz-button");
 const previousQuestionButton = document.getElementById("previous-question");

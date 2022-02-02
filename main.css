@@ -341,7 +341,7 @@ body {
   height: 200vh;
   width: 100vw;
   z-index: -1;
-  background-image: url("scroll.webp");
+  background-image: url("./scroll.webp");
   background-size: contain;
   background-repeat: repeat-y;
 }
