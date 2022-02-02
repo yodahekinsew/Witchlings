@@ -200,7 +200,14 @@ window.addEventListener("load", (event) => {
   for (let i = 0; i < cards.length; i++) {
     cards[i].addEventListener("click", (e) => {
       e.stopPropagation();
-      if (currentSelectedCard) currentSelectedCard.classList.remove("selected");
+      if (currentSelectedCard) {
+        currentSelectedCard.classList.remove("selected");
+        if (currentSelectedCard == cards[i]) {
+          currentSelectedCard = null;
+          clearMapping();
+          return;
+        }
+      }
       clearMapping();
       var index = 0;
       for (let j = 0; j < cards.length; j++) {
